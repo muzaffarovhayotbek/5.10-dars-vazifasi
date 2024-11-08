@@ -13,11 +13,14 @@ function validate(firstInput, twoInput) {
 btn.addEventListener('click', function (event) {
   event.preventDefault();
 
-  const isValid = validate(twoInput);
+  const isValid = validate(firstInput, twoInput);
   if (!isValid) {
     return;
   }
 
-  window.location.href = '/pages/home.html';
+  window.location.href = 'pages/home.html'; // home.html ning to'g'ri yo'li
+
+
+
 
 });
