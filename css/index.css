@@ -91,7 +91,6 @@
 
 .btn button:hover {
   cursor: pointer;
-  transform: scale(0.9);
 }
 
 .login h2 {
@@ -132,8 +131,10 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
+  transition: all 0.9s;
 
 }
+
 
 .buttons-btn span {
   font-family: 'Poppins';
