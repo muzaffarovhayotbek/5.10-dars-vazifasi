@@ -18,7 +18,7 @@ btn.addEventListener('click', function (event) {
     return;
   }
 
-  window.location.href = 'pages/home.html'; // home.html ning to'g'ri yo'li
+  window.location.href = 'pages/home.html';
 
 
 
